@@ -16,6 +16,6 @@ and see yourself on the score board!
 
 ## Installation
 
-repository- 
+repository- https://github.com/Brendon-Ravn/js-quiz
 <br />
-website-
+website- https://brendon-ravn.github.io/js-quiz/
