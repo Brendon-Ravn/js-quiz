@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Code Quiz</title>
+</head>
+<body>
+  <header class="text-light d-flex">
+    <h3 class="mr-auto m-3" id="topScoreLink" role="button">Top Scores</h3>
+    <h3 class="col-md-4" id="timer"></h3>
+  </header>
+  <div class=" d-flex justify-content-center text-danger" id="gameovercontainer">
+    <div class="font-weight-bold" id="gameover">
+        Game Over
+    </div>
+  </div>
+  <div class="container-fluid text-center text-dark">
+    <div id="questionaire">
+      <h2 id="currentQuestion">Fun Coding Quiz</h2>
+    </div>
+    <button type="button" id="start-button" class="btn btn-light btn-lg active" role="button"
+      aria-pressed="true">Let's Go</button>
+  </div>
+  <div id="modal-container" class="modal modal-dialog modal-dialog-centered">
+    <div class="modal-content modal-sm">
+      <div class="modal-header text-white bg-dark">
+        <span class="close text-white">&times;</span>
+        <h2 id="modal-name">
+        </h2>
+      </div>
+      <div class="modal-body text-center">
+        <h3>
+          Top Scores:
+        </h3>
+        <form id="topScoreForm">
+          <ul id="topScoresList">
+
+          </ul>
+          <input placeholder="Initial and press Enter" id="enterInitials" class="text-center" />
+          <button type="button" id="replay" class="btn btn-danger">Play Again?</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
