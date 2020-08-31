@@ -1,9 +1,8 @@
 # Javascript Code Quiz
 
 ## Description
-This was a homework assignment to build a Quiz using Javascript.<br />
-I did have more trouble with this one than the last assignments<br />
-but I learned a lot about JS and scope through this activity.
+This is a fun little Quiz using Javascript.<br />
+I learned a lot about JS and scope through this activity.
 
 ## Usage
 To begin the quiz you click the start button. When you are finished<br />
